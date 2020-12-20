@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a { text-decoration: none; }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-m {
+    margin: 5px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.right {
+    float: right;
+}
+
+.message {
+    border: 1px solid red;
+}
